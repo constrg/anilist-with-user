@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "2b24",
+      "username": "user1",
+      "email": "user1@gmail.com",
+      "password": "user1",
+      "animeList": [
+        {
+          "id": "gz9pzwe61",
+          "animeTitle": "Naruto",
+          "animeStatus": "Watching"
+        },
+        {
+          "id": "e6ggd3e60",
+          "animeTitle": "One Piece",
+          "animeStatus": "Watching"
+        },
+        {
+          "id": "w19dr4jzt",
+          "animeTitle": "MHA",
+          "animeStatus": "Watched"
+        },
+        {
+          "id": "wtmzxaukm",
+          "animeTitle": "Seven Deadly Sins",
+          "animeStatus": "Watched"
+        },
+        {
+          "id": "e28e8sldq",
+          "animeTitle": "Spy x Family",
+          "animeStatus": "Watched"
+        },
+        {
+          "id": "5rhiyivty",
+          "animeTitle": "That time i got reincarnated as a slime",
+          "animeStatus": "Watched"
+        },
+        {
+          "id": "mq3qffmw6",
+          "animeTitle": "Dragon Ball",
+          "animeStatus": "Watched"
+        }
+      ]
+    },
+    {
+      "id": "d56e",
+      "username": "user2",
+      "email": "user2@gmail.com",
+      "password": "user2",
+      "animeList": [
+        {
+          "id": "cjplw808p",
+          "animeTitle": "One Piece",
+          "animeStatus": "Watching"
+        }
+      ]
+    },
+    {
+      "id": "dc55",
+      "username": "user3",
+      "email": "user3@gmail.com",
+      "password": "user3"
+    },
+    {
+      "id": "e734",
+      "username": "user4",
+      "email": "user4@gmai.com",
+      "password": "user4"
+    }
+  ]
+}

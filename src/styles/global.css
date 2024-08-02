@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/font/Gontserrat-Regular.ttf'), format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/font/Gontserrat-Medium.ttf'), format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('../assets/font/Gontserrat-Bold.ttf'), format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ayamikan';
+  src: url('../assets/font/Ayamikan.ttf'), format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-main);
+  font-weight: var(--fw-regular);
+}
+
+:root 
+{
+  --ff-main: 'Gontserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --ff-title: 'Ayamikan';
+
+  --clr-dark: 30, 30, 33;
+  --clr-light: 241, 238, 238;
+  --clr-gray: 223, 221, 221;
+  --clr-accent: 115, 27, 255;
+  --clr-success: 27, 209, 67;
+  --clr-warning: 235, 173, 5;
+  --clr-danger: 219, 11, 46;
+
+  --fs-small: 0.813rem;
+  --fs-base: 1rem;
+  --fs-medium: 2.5rem;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body 
+{
+  font-size: var(--fs-base);
+  min-height: 100vh;
+}
+
+ul, li 
+{
+  list-style: none;
+}
+
+a 
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+input, button, select 
+{
+  border: none;
+  outline: none;
+  font-size: var(--fs-base);
+  border-radius: 5px;
+}
+
+button, select
+{
+  cursor: pointer;
+}
+
+.container 
+{
+  padding-inline: 80px;
+}
+
+@media (max-width: 834px)
+{
+  .container 
+  {
+    padding-inline: 40px;
+  }
+}
+
+@media (max-width: 480px)
+{
+  .container 
+  {
+    padding-inline: 20px;
+  }
+}
